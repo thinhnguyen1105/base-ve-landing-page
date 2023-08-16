@@ -11,7 +11,7 @@ interface IProps {
 const FeatureCard = (props: IProps) => (
   <div className="flex flex-col justify-between border border-indigo-500 bg-indigo-950 rounded-lg">
     <div className="md:p-6 flex justify-center">{props.image}</div>
-    <div>
+    <div className="px-6 py-6">
       <div className="md:px-6 md:pb-6">
         <div className="text-white text-xl font-bold mt-16 font-sans">
           {props.title.toUpperCase()}

@@ -26,7 +26,7 @@ export const HeroSection = () => {
             }
             description={
               <>
-                <div className="font-medium text-md leading-6 mt-4 md:w-2/3 mb-8">
+                <div className="font-medium text-white/80 text-md leading-6 mt-4 md:w-2/3 mb-8">
                   VE represents an innovative and pioneering integration of
                   cutting-edge DEX methodologies into the protocols that have
                   the abitity to incentivize holders in order to allocate

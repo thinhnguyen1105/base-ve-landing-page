@@ -2,11 +2,11 @@ import { AirdropImage } from './images/AirdropImage';
 import { Section } from '../../layout/Section';
 
 const AirdropSection = () => (
-  <div className="bg-gradient-dot">
+  <div className="bg-airdrop bg-no-repeat bg-center bg-cover">
     <Section>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4 items-center">
         <div>
-          <div className="text-3xl md:text-left text-center font-normal text-white font-sans">
+          <div className="text-3xl md:text-left text-left md:text-center font-normal text-white font-sans">
             Airdrop for Loyalty users
           </div>
           <div className="mt-4 font-medium text-white">

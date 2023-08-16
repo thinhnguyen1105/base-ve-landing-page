@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-dot': "url('/assets/images/bg-blur-dot.png')",
+        airdrop: "url('/assets/images/airdrop-bg.png')",
       },
       colors: {
         primary: {
