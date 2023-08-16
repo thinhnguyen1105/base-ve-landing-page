@@ -91,7 +91,7 @@ const Footer = () => (
         <div className="row-span-3">
           <Logo />
           <div className="text-white mt-24">Join Our Community!</div>
-          <div className="flex mt-4">
+          <div className="flex mt-4 cursor-pointer">
             <IconTelegram />
             <IconDiscord />
             <IconTwitter />
