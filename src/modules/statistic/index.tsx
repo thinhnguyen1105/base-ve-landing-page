@@ -1,0 +1,17 @@
+import { Numbers } from './images/Numbers';
+import { Section } from '../../layout/Section';
+
+const StatisticSection = () => (
+  <div className="bg-slate-950">
+    <Section>
+      <div className="text-5xl font-normal font-sans text-white">
+        BaseVe Statistics
+      </div>
+      <div className="py-8 flex justify-center">
+        <Numbers />
+      </div>
+    </Section>
+  </div>
+);
+
+export { StatisticSection };
