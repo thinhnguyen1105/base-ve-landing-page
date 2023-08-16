@@ -10,20 +10,20 @@ const BlogSection = () => (
         <BlogCard
           title="What Is A Layer-2 Blockchain?"
           shortDescription="Layer 2 refers to a secondary framework or protocol that is built on top of an..."
-          link="https://academy.binance.com/en/glossary/layer-2"
-          img="/assets/images/blog-01.png"
+          link=""
+          img=""
         />
         <BlogCard
-          title="What Is a Zero-Knowledge Proof?"
+          title="What Is a Base Chain?"
           shortDescription="While the inherent transparency of blockchains provides an advantage in many situations..."
-          link="https://blog.chain.link/what-is-a-zero-knowledge-proof-zkp/"
-          img="/assets/images/blog-02.png"
+          link=""
+          img=""
         />
         <BlogCard
-          title="What Is zkSync Era?"
+          title="What Is Base?"
           shortDescription="CoinMarketCap Alexandria takes a look into an Ethereum layer-two zero-knowledge ..."
-          link="https://coinmarketcap.com/alexandria/article/what-is-zksync-the-ultimate-guide-to-the-zksync-ecosystem"
-          img="/assets/images/blog-03.png"
+          link=""
+          img=""
         />
       </div>
     </Section>

@@ -19,7 +19,7 @@ const CommunityCard = (props: IProps) => (
         onClick={() => {
           if (props.url && props.url !== '/') window.open(props.url, '_blank');
         }}
-        className="font-sans hover:bg-slate-500 inline-block mt-4 rounded-full cursor-pointer text-center font-medium text-white bg-slate-800 text-sm py-2 px-6"
+        className="font-sans hover:bg-indigo-500/80 inline-block mt-4 rounded-md cursor-pointer text-center font-medium text-white bg-indigo-500 text-sm py-2 px-6"
       >
         {props.buttonText}
       </div>
