@@ -1,5 +1,9 @@
 import { Logo } from './Logo';
 import { Section } from '../layout/Section';
+import { IconDiscord } from '../modules/footer/community/IconDiscord';
+import { IconGithub } from '../modules/footer/community/IconGithub';
+import { IconTelegram } from '../modules/footer/community/IconTelegram';
+import { IconTwitter } from '../modules/footer/community/IconTwitter';
 
 const UpButton = () => (
   <svg
@@ -81,11 +85,18 @@ const listDevelopers = [
 ];
 
 const Footer = () => (
-  <div className="bg-indigo-950">
+  <div className="bg-indigo-950 relative">
     <Section>
       <div className="grid grid-rows-3 grid-flow-col gap-4">
         <div className="row-span-3">
           <Logo />
+          <div className="text-white mt-24">Join Our Community!</div>
+          <div className="flex mt-4">
+            <IconTelegram />
+            <IconDiscord />
+            <IconTwitter />
+            <IconGithub />
+          </div>
         </div>
         <div className="row-span-2">
           <div className="md:grid hidden grid-cols-4">
@@ -97,7 +108,7 @@ const Footer = () => (
         </div>
         <div className="row-span-3 flex justify-end">
           <button
-            className="cursor-pointer flex"
+            className="cursor-pointer flex absolute -top-8"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             <UpButton />

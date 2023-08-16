@@ -18,6 +18,9 @@ const ListSections = () => (
       <CommunitySection />
       <BlogSection />
       <Footer />
+      <div className="divide-y divide-indigo-500 p-6 bg-indigo-950 flex justify-center font-medium">
+        <div className="text-white/80">@ Copyright 2023 ALL RIGHT REVERED </div>
+      </div>
     </Background>
   </div>
 );

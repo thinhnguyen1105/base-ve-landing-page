@@ -37,7 +37,7 @@ export const HeroSection = () => {
               </>
             }
             button={
-              <Tooltip placement="topLeft" title={'Coming soon'}>
+              <Tooltip placement="top" title={'Coming soon'}>
                 <Button
                   size="large"
                   className="font-bold bg-indigo-500 text-white font-sans"
