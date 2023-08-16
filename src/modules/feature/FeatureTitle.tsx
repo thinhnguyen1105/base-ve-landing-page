@@ -30,7 +30,7 @@ const FeatureTitle = () => (
         <FeatureCard
           image={<TestAnimation path="" />}
           title="STAKE"
-          description="BaseVe empowers users to earn passive income by staking their BaseVe ($FORTI) or other tokens. This feature serves as an enticing value-add that encourages greater participation and engagement within our platform"
+          description="BaseVe empowers users to earn passive income by staking their BaseVe ($BASEVE) or other tokens. This feature serves as an enticing value-add that encourages greater participation and engagement within our platform"
           primaryButtonText="STAKE"
           secondaryButtonText="Read more"
         />
@@ -52,7 +52,7 @@ const FeatureTitle = () => (
         <FeatureCard
           image={<TestAnimation path="" />}
           title="Ve(3,3)"
-          description="The Ve(3,3) model, inspired by Convex or Curve's vote-escrow mechanism and Olympus DAO's Staking Dilution (3,3), allows $FORTI holders to manage allocated emissions which reduces emission dilution. The model incentivizes fee generation and rewards long-term supporters while aligning stakeholder interests."
+          description="The Ve(3,3) model, inspired by Convex or Curve's vote-escrow mechanism and Olympus DAO's Staking Dilution (3,3), allows $BASEVE holders to manage allocated emissions which reduces emission dilution. The model incentivizes fee generation and rewards long-term supporters while aligning stakeholder interests."
           primaryButtonText="Vote"
           secondaryButtonText="Read more"
         />
