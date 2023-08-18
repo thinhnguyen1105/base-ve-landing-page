@@ -1,3 +1,5 @@
+import { Image } from 'antd';
+
 interface IProps {
   title: string;
   shortDescription: string;
@@ -7,8 +9,8 @@ interface IProps {
 
 const BlogCard = (props: IProps) => (
   <div className="border border-indigo-500 bg-indigo-950 rounded-md divide-y divide-indigo-500">
-    <div className="md:top-7 top-6 p-5">
-      <div className="py-20"></div>
+    <div className="p-5">
+      <Image src={props.img} alt="blog-image" />
     </div>
     <div className="md:top-7 top-6 p-5">
       <div className="text-white font-sans">{props.title}</div>
