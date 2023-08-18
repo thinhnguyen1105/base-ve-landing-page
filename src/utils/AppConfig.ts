@@ -8,4 +8,12 @@ export const AppConfig = {
   annoucement: 'https://t.me/VEBase_ANN',
   twitter: 'https://twitter.com/VE_Base',
   github: '',
+  docs: '',
+  relatedLink: {
+    ecosystem: '',
+    explorer: '',
+    bridge: '',
+    chainlist: '',
+    defiliam: '',
+  },
 };

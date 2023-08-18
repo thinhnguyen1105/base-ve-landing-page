@@ -4,6 +4,7 @@ import { IconDiscord } from '../modules/footer/community/IconDiscord';
 import { IconGithub } from '../modules/footer/community/IconGithub';
 import { IconTelegram } from '../modules/footer/community/IconTelegram';
 import { IconTwitter } from '../modules/footer/community/IconTwitter';
+import { AppConfig } from '../utils/AppConfig';
 
 const UpButton = () => (
   <svg
@@ -65,18 +66,18 @@ const FooterList = (props: IPropsFooterList) => (
 );
 
 const listAbout = [
-  { title: 'FAQ', url: 'https://docs.VEBase.finance' },
+  { title: 'FAQ', url: AppConfig.docs },
   {
     title: 'Brand Assets',
-    url: 'https://docs.VEBase.finance/resources/brand-assets',
+    url: AppConfig.docs,
   },
-  { title: 'Guides', url: 'https://docs.VEBase.finance/' },
-  { title: 'Terms of Service', url: 'https://docs.VEBase.finance/' },
+  { title: 'Guides', url: AppConfig.docs },
+  { title: 'Terms of Service', url: AppConfig.docs },
 ];
 const listCommunity = [
-  { title: 'Discussion', url: 'https://t.me/VEBase_Chat' },
-  { title: 'Announcement', url: 'https://t.me/VEBase_Ann' },
-  { title: 'Discord', url: 'https://discord.gg/MyFucBDsFZ' },
+  { title: 'Discussion', url: AppConfig.telegram },
+  { title: 'Announcement', url: AppConfig.annoucement },
+  { title: 'Discord', url: AppConfig.discord },
 ];
 const listDevelopers = [
   { title: 'Application', url: '/' },
@@ -92,10 +93,34 @@ const Footer = () => (
           <Logo />
           <div className="text-white mt-24">Join Our Community!</div>
           <div className="flex mt-4 cursor-pointer">
-            <IconTelegram />
-            <IconDiscord />
-            <IconTwitter />
-            <IconGithub />
+            <div
+              onClick={() => {
+                window.open(AppConfig.telegram, '_blank');
+              }}
+            >
+              <IconTelegram />
+            </div>
+            <div
+              onClick={() => {
+                window.open(AppConfig.discord, '_blank');
+              }}
+            >
+              <IconDiscord />
+            </div>
+            <div
+              onClick={() => {
+                window.open(AppConfig.twitter, '_blank');
+              }}
+            >
+              <IconTwitter />
+            </div>
+            <div
+              onClick={() => {
+                window.open(AppConfig.github, '_blank');
+              }}
+            >
+              <IconGithub />
+            </div>
           </div>
         </div>
         <div className="row-span-2">

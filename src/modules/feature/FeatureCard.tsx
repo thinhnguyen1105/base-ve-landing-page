@@ -16,7 +16,7 @@ const FeatureCard = (props: IProps) => (
         <div className="text-white text-xl font-bold mt-16 font-sans">
           {props.title.toUpperCase()}
         </div>
-        <div className="mt-2 font-medium">{props.description}</div>
+        <div className="mt-2 font-medium leading-5">{props.description}</div>
       </div>
       <div>
         <div className="md:p-6 py-6 font-sans">
