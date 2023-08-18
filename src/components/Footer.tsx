@@ -65,17 +65,17 @@ const FooterList = (props: IPropsFooterList) => (
 );
 
 const listAbout = [
-  { title: 'FAQ', url: 'https://docs.BaseVe.finance' },
+  { title: 'FAQ', url: 'https://docs.VeBase.finance' },
   {
     title: 'Brand Assets',
-    url: 'https://docs.BaseVe.finance/resources/brand-assets',
+    url: 'https://docs.VeBase.finance/resources/brand-assets',
   },
-  { title: 'Guides', url: 'https://docs.BaseVe.finance/' },
-  { title: 'Terms of Service', url: 'https://docs.BaseVe.finance/' },
+  { title: 'Guides', url: 'https://docs.VeBase.finance/' },
+  { title: 'Terms of Service', url: 'https://docs.VeBase.finance/' },
 ];
 const listCommunity = [
-  { title: 'Discussion', url: 'https://t.me/BaseVe_Chat' },
-  { title: 'Announcement', url: 'https://t.me/BaseVe_Ann' },
+  { title: 'Discussion', url: 'https://t.me/VeBase_Chat' },
+  { title: 'Announcement', url: 'https://t.me/VeBase_Ann' },
   { title: 'Discord', url: 'https://discord.gg/MyFucBDsFZ' },
 ];
 const listDevelopers = [

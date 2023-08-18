@@ -1,4 +1,4 @@
-# BaseVe zKsync Dapp
+# VeBase Dapp
 
 Developer experience first:
 
@@ -27,4 +27,4 @@ Built-in feature from Next.js:
 Todo-list
 - [x] Update UI landing page
 - [x] Integrate Ant Design
-- [x] Connect Wallet zKSync
+- [x] Connect Wallet

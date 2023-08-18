@@ -27,13 +27,13 @@ export const RelatedLinkSection = () => {
           <RelatedLink title="Chainlist" />
           <RelatedLink title="DefiLima" />
         </div>
-        <div className="grid md:grid-cols-5 grid-cols-2 gap-4 mt-4">
+        {/* <div className="grid md:grid-cols-5 grid-cols-2 gap-4 mt-4">
           <div></div>
           <RelatedLink title="EcoSystem" />
           <RelatedLink title="Explorer" />
           <RelatedLink title="Bridge" />
           <div></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

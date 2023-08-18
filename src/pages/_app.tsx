@@ -5,18 +5,11 @@ import '../styles/global.css';
 import 'antd/dist/reset.css';
 import '@rainbow-me/rainbowkit/styles.css';
 import { WagmiConfig, configureChains, createClient } from 'wagmi';
-import {
-  mainnet,
-  polygon,
-  optimism,
-  arbitrum,
-  goerli,
-  zkSync,
-} from 'wagmi/chains';
+import { mainnet, polygon, optimism, arbitrum, goerli } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 
 const { chains, provider } = configureChains(
-  [zkSync, mainnet, goerli, polygon, optimism, arbitrum],
+  [mainnet, goerli, polygon, optimism, arbitrum],
   [publicProvider()]
 );
 

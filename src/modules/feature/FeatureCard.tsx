@@ -24,7 +24,7 @@ const FeatureCard = (props: IProps) => (
             {props.primaryButtonText.toUpperCase()}
           </div>
           <div
-            onClick={() => window.open('https://docs.BaseVe.finance', '_blank')}
+            onClick={() => window.open('https://docs.VeBase.finance', '_blank')}
             className="hover:text-white/80 md:inline-block hidden cursor-pointer underline text-center font-medium text-white text-sm py-2"
           >
             {props.secondaryButtonText}
