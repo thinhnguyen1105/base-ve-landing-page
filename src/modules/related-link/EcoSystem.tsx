@@ -3,7 +3,7 @@ import React from 'react';
 function EcoSystem() {
   return (
     <svg
-      className="max-w-full"
+      className="max-w-full opacity-50"
       width="21"
       height="24"
       viewBox="0 0 21 24"
