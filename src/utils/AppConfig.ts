@@ -1,11 +1,11 @@
 export const AppConfig = {
-  site_name: 'VeBase',
-  title: 'VeBase',
+  site_name: 'VEBase',
+  title: 'VEBase',
   description: 'The Native Liquidity Layer On Base',
   locale: 'en',
-  telegram: 'https://t.me/VeBase_Chat',
-  discord: 'https://discord.gg/MyFucBDsFZ',
-  annoucement: 'https://t.me/VeBase_Ann',
-  twitter: 'https://twitter.com/VeBaseFinance',
+  telegram: 'https://t.me/VEBase_Chat',
+  discord: '',
+  annoucement: 'https://t.me/VEBase_ANN',
+  twitter: 'https://twitter.com/VE_Base',
   github: '',
 };

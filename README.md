@@ -1,4 +1,4 @@
-# VeBase Dapp
+# VEBase Dapp
 
 Developer experience first:
 

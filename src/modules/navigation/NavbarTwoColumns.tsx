@@ -23,14 +23,12 @@ const NavbarTwoColumns = (props: INavbarProps) => (
         {props.children}
       </ul>
     </nav>
-    <div className="flex items-center">
-      <Link href="/">
-        <a className="mr-4 md:mt-0 mt-4 z-10">
-          <ConnectButton />
-        </a>
-      </Link>
-      <div className="md:mt-1 mt-5">
-        <SettingIcon />
+    <div className="flex flex-col justify-center">
+      <div className="flex items-center justify-center mt-2 md:mt-0">
+        <ConnectButton />
+        <div className="hidden md:block ml-2 mt-1">
+          <SettingIcon />
+        </div>
       </div>
     </div>
 

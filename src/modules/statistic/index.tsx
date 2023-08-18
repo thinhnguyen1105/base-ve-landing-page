@@ -5,7 +5,7 @@ const StatisticSection = () => (
   <div className="bg-slate-950">
     <Section>
       <div className="text-5xl font-normal font-sans text-white">
-        VeBase Statistics
+        VEBase Statistics
       </div>
       <div className="py-8 flex justify-center">
         <Numbers />
