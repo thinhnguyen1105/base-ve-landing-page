@@ -18,7 +18,10 @@ const FeatureTitle = () => (
       <div className="text-xl font-medium">
         Swap tokens, provide liquidity, stake and vote
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-12">
+      <div
+        className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-12"
+        data-aos="fade-y-out"
+      >
         <FeatureCard
           image={
             <Image src={ExchangeGif} alt="my gif" height={300} width={400} />

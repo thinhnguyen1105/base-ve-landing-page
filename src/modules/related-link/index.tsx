@@ -29,7 +29,7 @@ const RelatedLink = (props: IProps) => {
 export const RelatedLinkSection = () => {
   return (
     <div className="bg-indigo-950 pb-12">
-      <div className="p-6 max-w-screen-lg mx-auto">
+      <div className="p-6 max-w-screen-lg mx-auto" data-aos="fade-in">
         <div className="text-center text-white text-xl mt-12">
           {String('Related Links').toUpperCase()}
         </div>

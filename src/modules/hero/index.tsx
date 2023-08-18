@@ -16,7 +16,7 @@ export const HeroSection = () => {
           </NavbarTwoColumns>
         </div>
       </div>
-      <div className="lg:py-28">
+      <div className="lg:py-28" data-aos="fade-in">
         <Section yPadding="pt-20 pb-10">
           <HeroOneButton
             title={

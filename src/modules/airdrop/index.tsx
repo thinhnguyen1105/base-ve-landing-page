@@ -4,7 +4,10 @@ import { Section } from '../../layout/Section';
 const AirdropSection = () => (
   <div className="bg-airdrop bg-no-repeat bg-center bg-cover">
     <Section>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 items-center">
+      <div
+        className="grid md:grid-cols-2 grid-cols-1 gap-4 items-center"
+        data-aos="zoom-y-out"
+      >
         <div>
           <div className="text-3xl text-left font-normal text-white font-sans">
             Airdrop for Loyalty users

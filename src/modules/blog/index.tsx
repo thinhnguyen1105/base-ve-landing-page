@@ -6,7 +6,11 @@ const BlogSection = () => (
   <div className="bg-slate-950">
     <DividerDash />
     <Section>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+      <div
+        className="grid md:grid-cols-3 grid-cols-1 gap-4"
+        data-aos="fade-y-out"
+        data-aos-delay="150"
+      >
         <BlogCard
           title="What Is A Layer-2 Blockchain?"
           shortDescription="Layer 2 refers to a secondary framework or protocol that is built on top of an..."

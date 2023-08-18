@@ -12,30 +12,38 @@ const CommunitySection = () => (
         Join VEBase!
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-4 mt-20">
-        <CommunityCard
-          image={<TeleImage />}
-          description="Join VEBase community on Telegram"
-          buttonText="JOIN TELEGRAM"
-          url={AppConfig.telegram}
-        />
-        <CommunityCard
-          image={<DiscordImage />}
-          description="Become members of VEBase on Discord"
-          buttonText="JOIN DISCORD"
-          url={AppConfig.discord}
-        />
-        <CommunityCard
-          image={<TwitterImage />}
-          description="Get the latest news on VEBase Twitter"
-          buttonText="FOLLOW"
-          url={AppConfig.twitter}
-        />
-        <CommunityCard
-          image={<TeleImage />}
-          description="Join VEBase channel on Telegram"
-          buttonText="VISIT CHANNEL"
-          url={AppConfig.annoucement}
-        />
+        <div data-aos="fade-y-out">
+          <CommunityCard
+            image={<TeleImage />}
+            description="Join VEBase community on Telegram"
+            buttonText="JOIN TELEGRAM"
+            url={AppConfig.telegram}
+          />
+        </div>
+        <div data-aos="fade-y-out" data-aos-delay="150">
+          <CommunityCard
+            image={<DiscordImage />}
+            description="Become members of VEBase on Discord"
+            buttonText="JOIN DISCORD"
+            url={AppConfig.discord}
+          />
+        </div>
+        <div data-aos="fade-y-out" data-aos-delay="300">
+          <CommunityCard
+            image={<TwitterImage />}
+            description="Get the latest news on VEBase Twitter"
+            buttonText="FOLLOW"
+            url={AppConfig.twitter}
+          />
+        </div>
+        <div data-aos="fade-y-out" data-aos-delay="450">
+          <CommunityCard
+            image={<TeleImage />}
+            description="Join VEBase channel on Telegram"
+            buttonText="VISIT CHANNEL"
+            url={AppConfig.annoucement}
+          />
+        </div>
       </div>
     </Section>
   </div>
