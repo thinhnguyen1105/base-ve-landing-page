@@ -7,13 +7,13 @@ export const AppConfig = {
   discord: '',
   annoucement: 'https://t.me/VEBase_ANN',
   twitter: 'https://twitter.com/VE_Base',
-  github: '',
-  docs: '',
+  github: 'https://github.com/vebase23',
+  docs: 'https://docs.vebase.io/',
   relatedLink: {
     ecosystem: '',
     explorer: '',
-    bridge: '',
-    chainlist: '',
-    defiliam: '',
+    bridge: 'https://bridge.base.org/deposit',
+    chainlist: 'https://chainlist.org/chain/8453',
+    defiliam: 'https://defillama.com/chain/Base',
   },
 };

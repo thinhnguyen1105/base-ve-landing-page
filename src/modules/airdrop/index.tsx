@@ -1,5 +1,6 @@
 import { AirdropImage } from './images/AirdropImage';
 import { Section } from '../../layout/Section';
+import { AppConfig } from '../../utils/AppConfig';
 
 const AirdropSection = () => (
   <div className="bg-airdrop bg-no-repeat bg-center bg-cover">
@@ -19,7 +20,7 @@ const AirdropSection = () => (
             <div
               onClick={() =>
                 window.open(
-                  'https://docs.VEBase.finance/tokenomics/VEBase-airdrop',
+                  `${AppConfig.docs}/tokenomics/vebase-airdrop`,
                   '_blank'
                 )
               }
@@ -30,7 +31,7 @@ const AirdropSection = () => (
             <div
               onClick={() =>
                 window.open(
-                  'https://docs.VEBase.finance/tokenomics/VEBase-airdrop',
+                  `${AppConfig.docs}/tokenomics/vebase-airdrop`,
                   '_blank'
                 )
               }

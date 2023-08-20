@@ -69,7 +69,7 @@ const listAbout = [
   { title: 'FAQ', url: AppConfig.docs },
   {
     title: 'Brand Assets',
-    url: AppConfig.docs,
+    url: `${AppConfig.docs}/resources/brand-assets`,
   },
   { title: 'Guides', url: AppConfig.docs },
   { title: 'Terms of Service', url: AppConfig.docs },
@@ -81,7 +81,7 @@ const listCommunity = [
 ];
 const listDevelopers = [
   { title: 'Application', url: '/' },
-  { title: 'Github', url: '/' },
+  { title: 'Github', url: AppConfig.github },
   { title: 'Audits ', url: '/' },
 ];
 

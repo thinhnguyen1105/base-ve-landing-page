@@ -1,5 +1,7 @@
 import { ReactNode } from 'react';
 
+import { AppConfig } from '../../utils/AppConfig';
+
 interface IProps {
   image: ReactNode;
   title: string;
@@ -24,7 +26,7 @@ const FeatureCard = (props: IProps) => (
             {props.primaryButtonText.toUpperCase()}
           </div>
           <div
-            onClick={() => window.open('https://docs.VEBase.finance', '_blank')}
+            onClick={() => window.open(AppConfig.docs, '_blank')}
             className="hover:text-white/80 md:inline-block hidden cursor-pointer underline text-center font-medium text-white text-sm py-2"
           >
             {props.secondaryButtonText}
