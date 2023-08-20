@@ -10,8 +10,8 @@ export const AppConfig = {
   github: 'https://github.com/vebase23',
   docs: 'https://docs.vebase.io/',
   relatedLink: {
-    ecosystem: '',
-    explorer: '',
+    ecosystem: 'https://base.org/ecosystem',
+    explorer: 'https://basescan.org/',
     bridge: 'https://bridge.base.org/deposit',
     chainlist: 'https://chainlist.org/chain/8453',
     defiliam: 'https://defillama.com/chain/Base',

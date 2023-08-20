@@ -27,11 +27,11 @@ export const HeroSection = () => {
             description={
               <>
                 <div className="font-medium text-white/80 text-md leading-6 mt-4 md:w-2/3 mb-8">
-                  VE represents an innovative and pioneering integration of
+                  VEBase represents an innovative and pioneering integration of
                   cutting-edge DEX methodologies into the protocols that have
-                  the abitity to incentivize holders in order to allocate
-                  emissions towards liquidity poods. This revolutionary appoach
-                  deliverrs a supple and agile mechanism to accelerate and
+                  the ability to incentivize veVEB holders in order to allocate
+                  emissions towards liquidity pools. This revolutionary approach
+                  delivers a supple and agile mechanism to accelerate and
                   amplify liquidity with unparalleled effectiveness.
                 </div>
               </>
