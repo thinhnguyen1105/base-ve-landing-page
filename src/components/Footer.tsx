@@ -1,6 +1,5 @@
 import { Logo } from './Logo';
 import { Section } from '../layout/Section';
-import { IconDiscord } from '../modules/footer/community/IconDiscord';
 import { IconGithub } from '../modules/footer/community/IconGithub';
 import { IconTelegram } from '../modules/footer/community/IconTelegram';
 import { IconTwitter } from '../modules/footer/community/IconTwitter';
@@ -100,13 +99,13 @@ const Footer = () => (
             >
               <IconTelegram />
             </div>
-            <div
+            {/* <div
               onClick={() => {
                 window.open(AppConfig.discord, '_blank');
               }}
             >
               <IconDiscord />
-            </div>
+            </div> */}
             <div
               onClick={() => {
                 window.open(AppConfig.twitter, '_blank');
