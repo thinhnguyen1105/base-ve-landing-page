@@ -44,7 +44,7 @@ const FeatureTitle = () => (
         <FeatureCard
           image={<Image src={StakeGif} alt="my gif" height={300} width={400} />}
           title="STAKE"
-          description="VEBase empowers users to earn passive income by staking their VEBase ($VEBase) or other tokens. This feature serves as an enticing value-add that encourages greater participation and engagement within our platform"
+          description="VEBase empowers users to earn passive income by staking their VEBase ($VEB) or other tokens. This feature serves as an enticing value-add that encourages greater participation and engagement within our platform"
           primaryButtonText="STAKE"
           secondaryButtonText="Read more"
         />
@@ -68,7 +68,7 @@ const FeatureTitle = () => (
         <FeatureCard
           image={<Image src={VeGif} alt="my gif" height={300} width={400} />}
           title="Ve(3,3)"
-          description="The Ve(3,3) model, inspired by Convex or Curve's vote-escrow mechanism and Olympus DAO's Staking Dilution (3,3), allows $VEBase holders to manage allocated emissions which reduces emission dilution. The model incentivizes fee generation and rewards long-term supporters while aligning stakeholder interests."
+          description="The Ve(3,3) model, inspired by Convex or Curve's vote-escrow mechanism and Olympus DAO's Staking Dilution (3,3), allows $VEB holders to manage allocated emissions which reduces emission dilution. The model incentivizes fee generation and rewards long-term supporters while aligning stakeholder interests."
           primaryButtonText="Vote"
           secondaryButtonText="Read more"
         />
